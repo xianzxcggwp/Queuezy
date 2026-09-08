@@ -1,0 +1,172 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 7452 >>
+stream
+0.26 0.1 0.55 rg BT /F2 20 Tf 40 555 Td (QUEUEZY SYSTEM ERD) Tj ET
+0.35 0.39 0.48 rg BT /F1 10 Tf 40 538 Td (Entity relationship diagram for the MySQL database) Tj ET
+0.52 0.56 0.65 RG 1.2 w 210 455 m 335 455 l S
+0.52 0.56 0.65 RG 1.2 w 420 390 m 420 320 l S
+0.52 0.56 0.65 RG 1.2 w 505 250 m 620 350 l S
+0.52 0.56 0.65 RG 1.2 w 505 215 m 620 185 l S
+0.52 0.56 0.65 RG 1.2 w 335 430 m 210 185 l S
+0.26 0.1 0.55 rg BT /F2 8 Tf 216 463 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 320 463 Td (N) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 427 328 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 427 382 Td (N) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 525 267 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 605 337 Td (N) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 525 213 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 605 193 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 312 330 Td (1) Tj ET
+0.26 0.1 0.55 rg BT /F2 8 Tf 218 205 Td (N) Tj ET
+0.30 0.15 0.65 rg 40 478 170 28 re f
+0.82 0.84 0.90 RG 1 w 40 390 170 116 re S
+1 1 1 rg BT /F2 12 Tf 52 487 Td (users) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 52 458 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 458 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 458 Td (INT) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 441 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 441 Td (fullname) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 441 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 424 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 424 Td (email) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 424 Td (UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 407 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 407 Td (password) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 407 Td (HASH) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 390 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 390 Td (role) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 390 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 373 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 373 Td (created_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 373 Td (TIME) Tj ET
+0.30 0.15 0.65 rg 335 478 170 28 re f
+0.82 0.84 0.90 RG 1 w 335 390 170 116 re S
+1 1 1 rg BT /F2 12 Tf 347 487 Td (departments) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 347 458 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 458 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 458 Td (INT) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 441 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 441 Td (dept_name) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 441 Td (UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 424 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 424 Td (dept_code) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 424 Td (UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 407 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 407 Td (status) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 407 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 390 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 390 Td (created_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 390 Td (TIME) Tj ET
+0.30 0.15 0.65 rg 335 292 170 28 re f
+0.82 0.84 0.90 RG 1 w 335 150 170 170 re S
+1 1 1 rg BT /F2 12 Tf 347 301 Td (services) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 347 272 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 272 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 272 Td (INT) Tj ET
+0.78 0.35 0.08 rg BT /F2 7.5 Tf 347 255 Td (FK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 255 Td (dept_id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 255 Td (INT) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 238 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 238 Td (service_name) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 238 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 221 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 221 Td (estimated_time_mins) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 221 Td (INT) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 347 204 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 373 204 Td (created_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 447 204 Td (TIME) Tj ET
+0.30 0.15 0.65 rg 620 407 180 28 re f
+0.82 0.84 0.90 RG 1 w 620 285 180 150 re S
+1 1 1 rg BT /F2 12 Tf 632 416 Td (queue) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 632 387 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 387 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 387 Td (INT) Tj ET
+0.78 0.35 0.08 rg BT /F2 7.5 Tf 632 370 Td (FK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 370 Td (user_id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 370 Td (INT) Tj ET
+0.78 0.35 0.08 rg BT /F2 7.5 Tf 632 353 Td (FK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 353 Td (service_id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 353 Td (INT) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 336 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 336 Td (ticket_number) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 336 Td (UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 319 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 319 Td (status) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 319 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 302 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 302 Td (created_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 302 Td (TIME) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 285 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 285 Td (started_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 285 Td (DATETIME) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 268 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 268 Td (completed_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 268 Td (DATETIME) Tj ET
+0.30 0.15 0.65 rg 620 198 180 28 re f
+0.82 0.84 0.90 RG 1 w 620 110 180 116 re S
+1 1 1 rg BT /F2 12 Tf 632 207 Td (service_fees) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 632 178 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 178 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 178 Td (INT) Tj ET
+0.78 0.35 0.08 rg BT /F2 7.5 Tf 632 161 Td (FK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 161 Td (service_id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 161 Td (INT UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 144 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 144 Td (amount) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 144 Td (DECIMAL) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 632 127 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 658 127 Td (updated_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 742 127 Td (TIME) Tj ET
+0.30 0.15 0.65 rg 40 198 170 28 re f
+0.82 0.84 0.90 RG 1 w 40 110 170 116 re S
+1 1 1 rg BT /F2 12 Tf 52 207 Td (queue_payments) Tj ET
+0.1 0.5 0.32 rg BT /F2 7.5 Tf 52 178 Td (PK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 178 Td (id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 178 Td (INT) Tj ET
+0.78 0.35 0.08 rg BT /F2 7.5 Tf 52 161 Td (FK) Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 161 Td (queue_id) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 161 Td (INT UNIQUE) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 144 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 144 Td (amount) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 144 Td (DECIMAL) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 127 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 127 Td (status) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 127 Td (VARCHAR) Tj ET
+0.35 0.39 0.48 rg BT /F2 7.5 Tf 52 110 Td () Tj ET
+0.12 0.15 0.22 rg BT /F1 8.5 Tf 78 110 Td (paid_at) Tj ET
+0.42 0.46 0.54 rg BT /F1 7.5 Tf 152 110 Td (DATETIME) Tj ET
+0.35 0.39 0.48 rg BT /F1 9 Tf 40 78 Td (PK = Primary Key    FK = Foreign Key    1:N = one-to-many    1:1 = one-to-one) Tj ET
+0.45 0.48 0.55 rg BT /F1 8 Tf 40 58 Td (Source: dist/database/schema.sql) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000007761 00000 n 
+0000007831 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+7906
+%%EOF
